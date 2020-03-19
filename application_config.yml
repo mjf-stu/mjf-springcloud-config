@@ -1,0 +1,28 @@
+﻿server: 
+ port: 8881 ####123
+spring: 
+ profiles: 
+  active: dev
+
+---
+
+server: 
+ port: 3355
+spring: 
+ profiles: dev
+eureka: 
+ client: 
+  registry-with-eureka: false
+  service-url:
+   defaultZone: 123321222
+---
+
+server: 
+ port: 33551
+spring: 
+ profiles: prod
+eureka: 
+ client: 
+  registry-with-eureka: false
+  service-url:
+   defaultZone: 1233212223323123213123213
