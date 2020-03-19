@@ -1,0 +1,19 @@
+﻿server: 
+ port: 8881 ####123
+spring: 
+ profiles: 
+  active: dev
+
+---
+
+server: 
+ port: 8882
+spring: 
+ profiles: dev
+
+---
+
+server: 
+ port: 8883
+spring: 
+ profiles: prod
